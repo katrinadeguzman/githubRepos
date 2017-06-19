@@ -15,6 +15,7 @@
 		D78279C11EF85FED007D51E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78279BF1EF85FED007D51E0 /* LaunchScreen.storyboard */; };
 		D78279CC1EF85FED007D51E0 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78279CB1EF85FED007D51E0 /* GithubReposTests.m */; };
 		D78279D71EF85FED007D51E0 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78279D61EF85FED007D51E0 /* GithubReposUITests.m */; };
+		D78279E61EF874C7007D51E0 /* Repos.m in Sources */ = {isa = PBXBuildFile; fileRef = D78279E51EF874C7007D51E0 /* Repos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D78279D21EF85FED007D51E0 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78279D61EF85FED007D51E0 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		D78279D81EF85FED007D51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78279E41EF874C7007D51E0 /* Repos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repos.h; sourceTree = "<group>"; };
+		D78279E51EF874C7007D51E0 /* Repos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				D78279B71EF85FED007D51E0 /* ViewController.h */,
 				D78279B81EF85FED007D51E0 /* ViewController.m */,
 				D78279BA1EF85FED007D51E0 /* Main.storyboard */,
+				D78279E41EF874C7007D51E0 /* Repos.h */,
+				D78279E51EF874C7007D51E0 /* Repos.m */,
 				D78279BD1EF85FED007D51E0 /* Assets.xcassets */,
 				D78279BF1EF85FED007D51E0 /* LaunchScreen.storyboard */,
 				D78279C21EF85FED007D51E0 /* Info.plist */,
@@ -276,6 +281,7 @@
 				D78279B91EF85FED007D51E0 /* ViewController.m in Sources */,
 				D78279B61EF85FED007D51E0 /* AppDelegate.m in Sources */,
 				D78279B31EF85FED007D51E0 /* main.m in Sources */,
+				D78279E61EF874C7007D51E0 /* Repos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
